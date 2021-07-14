@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+	<link rel="stylesheet" href="Registration.css">
+	<link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- container -->
+<div class="container" id="container">
+    <!-- form-containe -->
+	<div class="form-container sign-up-container">
+		<form action="#">
+            <h1>Create Account</h1>
+            <!-- social-container -->
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+    </div>
+    <!-- form-container -->
+	<div class="form-container sign-in-container">
+		<form action="#">
+            <h1>Sign in</h1>
+            <!-- social-container -->
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Put Your Account!!</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Log In</button>
+		</form>
+    </div>
+    <!-- overlay-container -->
+	<div class="overlay-container">
+        <!-- overlay -->
+		<div class="overlay">
+            <!-- overlay-pane overlay-left -->
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Log In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Put your personal Information and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="registration.js"></script>
+</body>
+</html>

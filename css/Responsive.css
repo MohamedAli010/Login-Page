@@ -1,0 +1,86 @@
+/* ---------- Media For Small Device ---------- */
+@media screen and (min-width:0px) and (max-width:277px)
+{
+    .social-container a
+    {
+        margin: 0;
+        width:5px;
+        height:5px;
+        font-size: 11px;
+    }
+}
+
+/* ---------- Media From 277px To 330px ---------- */
+@media screen and (min-width:277px) and (max-width:330px)
+{
+    .social-container a
+    {
+        margin: 0;
+        width:10px;
+        height:10px;
+        font-size: 11px;
+    }
+
+    .container{
+        min-height:520px;
+    }
+    
+    button
+    {
+        display: inline-block;
+    }
+}
+
+/* ---------- Media From 331px To 350px ---------- */
+@media screen and (min-width:331px) and (max-width:350px)
+{
+    .social-container a
+    {
+        margin: 0;
+        width:15px;
+        height:15px;
+        
+    }
+    .container{
+        min-height:520px;
+    }
+}
+
+/* ---------- Media From 351px To 400px ---------- */
+@media screen and (min-width:351px) and (max-width:400px){
+    .social-container a
+    {
+        margin: 0;
+        width:23px;
+        height:23px;
+    }
+    .container{
+        min-height:520px;
+    }
+}
+
+/* ---------- Media From 401px To 470px ---------- */
+
+@media screen and (min-width:401px) and (max-width:470px){
+    .social-container a
+    {
+        margin: 0;
+        width:30px;
+        height:30px;
+    }
+    .container{
+        min-height:520px;
+    }
+}
+
+/* ---------- Media From 470px To 535px ---------- */
+@media screen and ( max-width: 535px ){
+    .social-container a{
+        margin: 0;
+        padding: 0;
+    }
+    button
+    {
+        padding: 12px 40px;
+    }
+};
